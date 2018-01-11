@@ -1,0 +1,49 @@
+<!-- 选项卡 -->
+<style type="text/css">
+.tab-pane .tab-menu>li{
+	position: relative;
+    display: block;
+	float:left;	
+	background-color: #efefef;
+	color: #666666;
+}
+.tab-pane .tab-menu>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #666666;
+
+}
+.tab-pane .tab-menu>li.active>a, .tab-pane .tab-menu>li.active>a:focus, .tab-pane .tab-menu>li.active>a:hover {
+    color: #ffffff;
+    cursor: default;
+    background-color: #015293;
+}
+.tab-content .tab-subcon {
+    display: none;
+}
+.tab-content .active {
+    display: block;
+}
+</style>
+<div class="tab-pane">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<ul class="tab-menu">
+				<li class="active"><a href="#">行业报道</a></li>
+				<li><a href="#">媒体声音</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="panel-body">
+			<div class="tab-content">
+				<div class="tab-subcon active">					
+					行业报道
+				</div>
+				<div class="tab-subcon">
+					媒体声音
+				</div>				
+			</div>			
+		</div>
+	</div>		
+</div>
